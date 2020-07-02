@@ -1,3 +1,246 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 header{
      background-color: #1D252C;
+     margin: 0;
+     padding: 0;
+}
+
+ol{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2{
+    text-transform: uppercase;
+    color: blue;
+}
+
+footer{
+     background-color: #1D252C;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.link-contact{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color:white;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    background-color: #1D252C;
+}
+
+.hero h1{
+    margin-right: 45px;
+    padding: 10px; 
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    margin-left: 35px;
+}
+
+.hero h1 strong{
+    color: blue;
+    align-items: center;
+}
+
+.portfolio-title{
+    margin-left: 50px;
+}
+
+.portfolio-info{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    align-items: center;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+}
+
+.project-description{
+    padding: 20px;
+    align-items: center;
+}
+
+.project-description h3{
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.project-description h6{
+    font-size: 14px;
+    margin: 0;
+}
+
+.project-description a{
+    text-decoration: underline;
+    color: black;
+}
+
+.project-image{
+    width: 550px;
+}
+
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience h2{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.event{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 480px;
+    overflow: hidden;
+    background-color: #F1F8FE;
+    margin: 8px;
+}
+
+.event-info{
+    padding: 8px;
+    margin: 10px;
+    background-color: white;
+    margin-top: -45px;
+    position: relative;
+}
+
+.event-info a{
+    text-decoration: none;
+    justify-content: center;
+    color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.link-conferencia{
+    text-align: center;
+}
+
+.event-info h3{
+    text-align: center;
+}
+
+.event-image{
+    width: 480px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.contact-form{
+    padding-left: 10px;
+    align-items: center;
+}
+
+.contact h3{
+    color: white;
+    margin: 0;
+    margin-bottom: 25px;
+    
+}
+
+.contact-textbox{
+    background-image: url(../imagenes/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 15px 15px;
+    background-position-x: 6px;
+    padding: 5px 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.contact-submit{
+    color: white;
+    padding: 5px 25px;
+    background: transparent;
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.image-facebook{
+    width: 50px;
+    margin: auto 30px;
+}
+
+.image-instagram{
+    width: 50px;
+    margin: auto 30px;
+}
+
+.image-twitter{
+    width: 50px;
+    margin: auto 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
 }

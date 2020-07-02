@@ -3,67 +3,136 @@
     <head>
         <meta charset="UTF-8">
         <title>Hola soy Byron</title>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
         <header>
-            <nav class="menu">
-                <ol>
-                    <li class="link">
-                        <a href="#portafolio">Portafolio</a>
-                    </li>   
-                    <li class="link">
-                        <a href="#experiencia">Experiencia</a>
-                    </li>
-                    <li class="link">
-                        <a href="#contacto">Trabajemos juntos</a>
-                    </li>
-                </ol>
-            </nav>
+            <div class="wrapper">
+                <nav class="menu">
+                     <ol>
+                        <li>
+                            <a href="#portafolio" class="link">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#experiencia" class="link">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#contacto" class="link-contact">Trabajemos juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
         </header>
         <section class="hero">
-            <img src="imagenes/kermit.jpg" alt="Foto personal" />
-            <h1>Hola! soy <strong>Byron Giraldo</strong> desarrollador de <strong>JavaScript</strong></h1>
+            <div class="wrapper">
+                <h1>Hola! soy <strong>Byron Giraldo</strong><br /> desarrollador de <strong>JavaScript</strong></h1>
+                <img src="imagenes/kermit.jpg" alt="Foto personal" />
+            </div>
         </section>
-        <section id="portafolio" class="portfolio">
-            <h2>portafolio (proyectos destacados)</h2>
-            <article class="project">
-                <h3>Platzi video</h3>
-                <h6>React Native / React</h6> 
-                    <p><small><strong>Puedes verlo en:</strong> <a href="https://www.youtube.com/watch?v=aZiltZvcNZE" target="_blank">Este video</a></small></p>
-                <p>El reino monera o reino procariota es el nombre de una clasificación de los seres vivos que agrupa a los organismos
-                unicelulares o procariotas, que carecen de un núcleo definido, y está compuesto principalmente por bacterias.</p>
-                <figure>
-                    <img src="imagenes/platzi-video-react-native.png" alt="" />
-                </figure>
-            </article>
+        <section id="portafolio" class="portfolio"></section>
+           <div class="wrapper">
+                <h2 class="portfolio-title">portafolio (proyectos destacados)</h2>
+                <div class="portfolio-info">
+                    <article class="project">
+                        <div class="project-description">
+                            <h3>Platzi video</h3>
+                            <h6>React Native / React</h6>
+                            <p><strong>Puedes verlo en:</strong> <a href="https://www.youtube.com/watch?v=aZiltZvcNZE" target="_blank">Este
+                                    video</a></p>
+                            <p>El reino monera o reino procariota es el nombre de una clasificación de los seres vivos que agrupa a los
+                                organismos
+                                unicelulares o procariotas, que carecen de un núcleo definido, y está compuesto principalmente por
+                                bacterias.</p>
+                        </div>
+                        <figure>
+                            <img src="imagenes/platzi-video-react-native.png" alt="platzi video" class="project-image" />
+                        </figure>
+                    </article>
+                </div>
+           </div>
         </section>
-        <section id="experiencia">
-            <h2>M&aacute;s sobre mi experiencia</h2>
-            <article class="event">
-                <figure>
-                    <img src="imagenes/conferencia.jpg" alt="" />
-                </figure>
-                <h3>Conferencia de creacion de startups</h3>
-                <p>The Lean Startup: cómo los emprendedores de hoy en día utilizan la innovación continua para crear negocios radicalmente
-                exitosos es un libro de Eric Ries que describe su propuesta de estrategia de startups lean para empresas de startups.</p>
-                <a href="https://www.youtube.com/watch?v=VLVdjLbXdm4" target="_blank">Ver conferencia</a>
-            </article>
+        <section id="experiencia" class="experience">
+            <div class="wrapper">
+                <h2 class="experiencia-title">M&aacute;s sobre mi experiencia</h2>
+                <div class="event-list">
+                    <article class="event">
+                        <img src="imagenes/conferencia.jpg" alt="" class="event-image" />
+                        <div class="event-info">
+                            <h3>Conferencia de creacion de startups</h3>
+                            <p>The Lean Startup: cómo los emprendedores de hoy en día utilizan la innovación continua para crear negocios
+                                radicalmente
+                                exitosos es un libro de Eric Ries que describe su propuesta de estrategia de startups lean para empresas de
+                                startups.</p>
+                            <p class="link-conferencia"><a href="https://www.youtube.com/watch?v=VLVdjLbXdm4" target="_blank"><strong>Ver
+                                        conferencia</strong></a></p>
+                        </div>
+                    </article>
+                    <article class="event">
+                        <img src="imagenes/conferencia.jpg" alt="" class="event-image" />
+                        <div class="event-info">
+                            <h3>Conferencia de creacion de startups</h3>
+                            <p>The Lean Startup: cómo los emprendedores de hoy en día utilizan la innovación continua para crear negocios
+                                radicalmente
+                                exitosos es un libro de Eric Ries que describe su propuesta de estrategia de startups lean para empresas de
+                                startups.</p>
+                            <p class="link-conferencia"><a href="https://www.youtube.com/watch?v=VLVdjLbXdm4" target="_blank"><strong>Ver
+                                        conferencia</strong></a></p>
+                        </div>
+                    </article>
+                    <article class="event">
+                        <img src="imagenes/conferencia.jpg" alt="" class="event-image" />
+                        <div class="event-info">
+                            <h3>Conferencia de creacion de startups</h3>
+                            <p>The Lean Startup: cómo los emprendedores de hoy en día utilizan la innovación continua para crear negocios
+                                radicalmente
+                                exitosos es un libro de Eric Ries que describe su propuesta de estrategia de startups lean para empresas de
+                                startups.</p>
+                            <p class="link-conferencia"><a href="https://www.youtube.com/watch?v=VLVdjLbXdm4" target="_blank"><strong>Ver
+                                        conferencia</strong></a></p>
+                        </div>
+                    </article>
+                    <article class="event">
+                        <img src="imagenes/conferencia.jpg" alt="" class="event-image" />
+                        <div class="event-info">
+                            <h3>Conferencia de creacion de startups</h3>
+                            <p>The Lean Startup: cómo los emprendedores de hoy en día utilizan la innovación continua para crear negocios
+                                radicalmente
+                                exitosos es un libro de Eric Ries que describe su propuesta de estrategia de startups lean para empresas de
+                                startups.</p>
+                            <p class="link-conferencia"><a href="https://www.youtube.com/watch?v=VLVdjLbXdm4" target="_blank"><strong>Ver
+                                        conferencia</strong></a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
         <section class="contact" id="contacto">
-            <form action="/subscripcion/">
-                <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="D&eacute;jame tu email">
-                <input type="submit" value="Enviar"></input>
-            </form>
-            <a href="https://twitter.com/elonmusk?s=09" target="_blank"><img src="imagenes/twitter.svg" alt="twitter" /></a>
-            <a href="https://www.facebook.com/nikoleandrea.vinascomillan" target="_blank"><img src="imagenes/facebook.svg" alt="facebook" /></a>
-            <a href="https://instagram.com/nicole_.v17?igshid=1uo2gfenpzaxz" target="_blank"><img src="imagenes/instagram.svg" alt="instagram" /></a>
+            <div class="wrapper">
+                <form action="/subscripcion/" class="contact-form">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="D&eacute;jame tu email" class="contact-textbox"><br />
+                    <input type="submit" value="Enviar" class="contact-submit"></input>
+                </form>
+                <div class="contact-images">
+                    <a href="https://twitter.com/elonmusk?s=09" target="_blank"><img src="imagenes/twitter.svg" alt="twitter"
+                            class="image-twitter" /></a>
+                    <a href="https://www.facebook.com/nikoleandrea.vinascomillan" target="_blank"><img src="imagenes/facebook.svg"
+                            alt="facebook" class="image-facebook" /></a>
+                    <a href="https://instagram.com/nicole_.v17?igshid=1uo2gfenpzaxz" target="_blank"><img src="imagenes/instagram.svg"
+                            alt="instagram" class="image-instagram" /></a>
+                </div>
+            </div>
         </section>
         <footer>
-            <p>Curso de desarrollo online</p>
-            <p>Platzi</p>
-            <p>Designed with &lt3 by <a href="https://instagram.com/nicole_.v17?igshid=1uo2gfenpzaxz">@nicole_.17</a></p>
+           <div class="wrapper">
+                <div class="footer">
+                    <p>Curso de desarrollo online</p>
+                    <p>Platzi</p>
+                    <p>Designed with &lt3 by <a href="https://instagram.com/nicole_.v17?igshid=1uo2gfenpzaxz">@nicole_.17</a></p>
+                </div>
+           </div>
         </footer>
     </body>
 </html>
